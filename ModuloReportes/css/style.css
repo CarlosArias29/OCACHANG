@@ -1,0 +1,372 @@
+/**{
+  border:1px dashed green;
+}*/
+
+
+body {
+  background: transparent url(../images/bg.png) repeat;
+}
+
+#user, .pass {
+  height: 20px;
+  font-family: "Arial", "Helvetica";
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.fentrada {
+  width: 100%;
+  height: 20px;
+  font-family: "Arial", "Helvetica";
+
+}
+
+
+#user_activo {
+  float:right;
+  width:100%;
+  text-align: right;
+  font-size: 14px;
+  font-family: "Arial", "Helvetica";
+  color:#F7AF39;
+  margin-bottom: 10px;
+
+}
+
+#login {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  clear: both;
+}
+
+#login1, #menu, #reg_user {
+  font-size: 45px;
+  font-family: "Arial", "Helvetica";
+  color:#F7AF39;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#entrada, #datos_entrada {
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+
+}
+
+.log {
+	font-family: "Arial", "Helvetica";
+	color: #F7AF39;
+	font-size: 18px;
+	font-style: normal;
+}
+
+.lista {
+  font-family: "Arial", "Helvetica";
+  color:#FFF;
+  background-color: #282D3A;
+  height: 30px;
+  width: 100%;
+  font-size: 14px;
+}
+
+
+#boton.hover {
+  color:red;
+}
+
+#salida {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Arial", "Helvetica";
+  color:#F7AF39;
+}
+
+.encabezado_menu_1 {
+  border-radius: 10px;
+  background-color: #FFF1A5;
+  border: 1px solid #FED22F;
+  font-family: "Arial", "Helvetica";
+  color:#62572C;
+  font-weight: bold;
+
+}
+
+.sub_menu_1 {
+  border-radius: 10px;
+  background-color: #FFF1A5;
+  border: 1px solid #FED22F;
+  font-family: "Arial", "Helvetica";
+  color:#62572C;
+  font-weight: bold;
+
+}
+
+#menu_tabla{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #E0E0E0;
+  margin-bottom: 20px;
+
+}
+
+#menu_tabla tr {
+  border-spacing: 10px 0;
+}
+
+#b_atras{
+  width: 50%;
+  margin: 0 auto;
+  clear: both;
+  text-align: center;
+}
+
+#imagen_1 {
+  
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 20px; 
+  text-align: center;
+}
+
+.fila{
+   margin: 0 auto;
+   text-align: center;
+   width: 100%;
+}
+
+.boton{
+  font-size: 14px;
+}
+
+
+/*****************************  del menu  **********************************/
+
+#cssmenu {
+  border: none;
+  border: 0px;
+  margin: 0 auto;
+  padding: 0px;
+  font: 67.5% 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+}
+#cssmenu ul {
+  background: #333333;
+  height: 35px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu li {
+  float: left;
+  padding: 0px;
+}
+#cssmenu li a {
+  background: #333333 url('../images/seperator.png') bottom right no-repeat;
+  display: block;
+  font-weight: normal;
+  line-height: 35px;
+  margin: 0px;
+  padding: 0px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+#cssmenu > ul > li > a {
+  color: #f7ae39;
+}
+#cssmenu ul ul a {
+  color: #f7ae39;
+}
+#cssmenu li > a:hover,
+#cssmenu ul li:hover > a {
+  background: #2580a2 url('../images/hover.png') bottom center no-repeat;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#cssmenu li ul {
+  background: #333333;
+  display: none;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  position: absolute;
+  width: 225px;
+  z-index: 200;
+  /*top:1em;
+  /*left:0;*/
+
+}
+#cssmenu li:hover ul {
+  display: block;
+}
+#cssmenu li li {
+  background: url('../images/sub_sep.png') bottom left no-repeat;
+  display: block;
+  float: none;
+  margin: 0px;
+  padding: 0px;
+  width: 225px;
+}
+#cssmenu li:hover li a {
+  background: none;
+}
+#cssmenu li ul a {
+  display: block;
+  height: 35px;
+  font-size: 12px;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px 10px 0px 15px;
+  text-align: left;
+}
+#cssmenu li ul a:hover,
+#cssmenu li ul li:hover > a {
+  background: #2580a2 url('../images/hover_sub.png') center left no-repeat;
+  border: 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
+#cssmenu p {
+  clear: left;
+}
+/********************************** Del registro de inventarios ******************/
+#div_entrada {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#div_ordenes{
+  font-family: "Arial", "Helvetica";
+  color:#F7AF39;
+  /*float: left;*/
+  display: inline-block;
+
+}
+
+#div_datosOrdenes{
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 15px;
+}
+
+#div_datosOrdenes2{
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 15px;
+}
+
+#div_fecha{
+  font-family: "Arial", "Helvetica";
+  color:#F7AF39;
+  float: right;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.listado {
+  font-family: "Arial", "Helvetica";
+  color:#FFF;
+  background-color: #282D3A;
+  height: 30px;
+  font-size: 14px;
+}
+
+.eOrdenes {
+  height: 25px;
+  font-family: "Arial", "Helvetica";
+}
+
+#div_idProducto, #div_numLotes, #div_fechaIni, #div_fechaFin, #div_prodPorLote, #div_precioPorLote, #div_idProveedores{
+  display: inline-block;
+}
+
+#div_fechaIni, #div_fechaFin{
+  margin-left: 30px;
+}
+
+#div_idProveedores{
+  width: 50px;
+}
+
+
+#div_botones, #div_botonesFin{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+#div_botonesFin2{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+#div_btnLimpiar{
+/*  width: 50%;*/
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  margin: 20px 40px 0 0;
+}
+
+#div_btnGuardar{
+/*  width: 50%;*/
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  margin: 20px 0 0 40px;
+}
+
+#div_btnCancelar{
+/*  width: 50%;*/
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  margin: 20px 40px 30px 0;
+}
+
+#div_btnConfirmar{
+/*  width: 50%;*/
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  margin: 20px 0 30px 40px;
+}
+
+#div_btnImprimir{
+/*  width: 50%;*/
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  margin: 20px 0 30px 60px;
+}
+
+#div_tabla{
+  margin: 0 auto;
+  font-family: "Arial", "Helvetica";
+  color:#F7AF39;
+  margin-top: 5px;
+  text-align: center;
+  /*border: 1px solid red;*/
+  width: auto;
+}
+
+.tablaDin {
+    margin: auto;
+}
+
+.tablaDin th {
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.tablaDin td {
+    border: 1px solid white;
+    padding: 5px;
+}

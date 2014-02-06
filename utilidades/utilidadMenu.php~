@@ -1,0 +1,121 @@
+<?php
+
+function tipomenu($tipo){
+	switch($tipo){ 
+		case 1:
+			echo "<div class='cssmenu'>
+					<ul>
+					   <li class='has-sub'><a href='#'><span>Gestión de Usuarios</span></a>
+					      <ul>
+					         <li><a href='ModuloUsuario/usuarionuevo.php'><span>Crear nuevo usuario</span></a></li>
+					         <li><a href='ModuloUsuario/usuariomodificarpermisos.php'><span>Modificar Permisos</span></a></li>
+					         <li><a href='ModuloUsuario/usuariobaja.php'><span>Dar de baja (usuarios)</span></a></li>
+					         <li class='last'><a href='ModuloUsuario/usuariocontrol.php'><span>Control de Acceso de Usuarios</span></a></li>
+					      </ul>
+					   </li>
+					   <li class='has-sub'><a href='#'><span>Gestión de Proveedores</span></a>
+					      <ul>
+					         <li><a href='ModuloProveedor/proveedornuevo.php'><span>Agregar nuevo proveedor</span></a></li>
+					         <li><a href='ModuloProveedor/proveedormodificar.php'><span>Modificar Proveedores</span></a></li>
+					         <li class='last'><a href='ModuloProveedor/proveedorbaja.php'><span>Dar de baja (proveedores)</span></a></li>
+					      </ul>
+					   </li>
+					   <li class='has-sub'><a href='#'><span>Gestión de Productos</span></a>
+					      <ul>
+					         <li><a href='ModuloProducto/productonuevo.php'><span>Agregar nuevo producto</span></a></li>
+					         <li><a href='ModuloProducto/productomodificar.php'><span>Modificar producto</span></a></li>
+					         <li class='last'><a href='ModuloProducto/productobaja.php'><span>Dar de baja (productos)</span></a></li>
+					      </ul>
+					   </li>
+					   <li class='has-sub'><a href='#'><span>Gestión de Inventario</span></a>
+					      <ul>
+					         <li><a href='#'><span>Registro de entradas</span></a></li>
+					         <li><a href='#'><span>Registro de salidas</span></a></li>
+					         <li class='last'><a href='#'><span>Modificación de productos en inventario</span></a></li>
+					      </ul>
+					   </li>
+					   <li class='has-sub'><a href='#'><span>Gestión de Ordenes de Compra</span></a>
+					      <ul>
+					         <li><a href='#'><span>Creación de orden de compra</span></a></li>
+					         <li><a href='#'><span>Modificación de orden de compra</span></a></li>
+					         <li class='last'><a href='#'><span>Eliminar orden de compra</span></a></li>
+					      </ul>
+					   </li>
+					   <li class='has-sub last'><a href='#'><span>Gestión de Reportes</span></a>
+					      <ul>
+					         <li><a href='#'><span>Reportes de orden de compra</span></a></li>
+					         <li class='last'><a href='#'><span>Reportes de inventario</span></a></li>
+					      </ul>
+					   </li>
+					</ul>
+					</div>";
+		  	break;
+		case 2:
+			echo "<div class='cssmenu' style='width: 57%;'>
+					<ul>
+					   
+					   <li class='has-sub'><a href='#'><span>Gestión de Proveedores</span></a>
+					      <ul>
+					         <li><a href='ModuloProveedor/proveedornuevo.php'><span>Agregar nuevo proveedor</span></a></li>
+					         <li><a href='ModuloProveedor/proveedormodificar.php'><span>Modificar Proveedores</span></a></li>
+					         <li class='last'><a href='ModuloProveedor/proveedorbaja.php'><span>Dar de baja (proveedores)</span></a></li>
+					      </ul>
+					   </li>
+					   <li class='has-sub'><a href='#'><span>Gestión de Productos</span></a>
+					      <ul>
+					         <li><a href='ModuloProducto/productonuevo.php'><span>Agregar nuevo producto</span></a></li>
+					         <li><a href='ModuloProducto/productomodificar.php'><span>Modificar producto</span></a></li>
+					         <li class='last'><a href='ModuloProducto/productobaja.php'><span>Dar de baja (productos)</span></a></li>
+					      </ul>
+					   </li>
+					   <li class='has-sub'><a href='#'><span>Gestión de Inventario</span></a>
+					      <ul>
+					         <li><a href='#'><span>Registro de entradas</span></a></li>
+					         <li><a href='#'><span>Registro de salidas</span></a></li>
+					         <li class='last'><a href='#'><span>Modificación de productos en inventario</span></a></li>
+					      </ul>
+					   </li>
+					   
+					   <li class='has-sub last'><a href='#'><span>Gestión de Reportes</span></a>
+					      <ul>
+					         <li><a href='#'><span>Reportes de orden de compra</span></a></li>
+					         <li class='last'><a href='#'><span>Reportes de inventario</span></a></li>
+					      </ul>
+					   </li>
+					</ul>
+				</div>";
+		  		break;
+			
+			case 3:
+			echo "<div class='cssmenu' style='width: 30%;'>
+					<ul>
+					   
+					   
+					   <li class='has-sub'><a href='#'><span>Gestión de Inventario</span></a>
+					      <ul>
+					         <li><a href='#'><span>Registro de entradas</span></a></li>
+					         <li><a href='#'><span>Registro de salidas</span></a></li>
+					         <li class='last'><a href='#'><span>Modificación de productos en inventario</span></a></li>
+					      </ul>
+					   </li>
+					   
+					   <li class='has-sub last'><a href='#'><span>Gestión de Reportes</span></a>
+					      <ul>
+					         <li style='display:none;'><a href='#'><span>Reportes de orden de compra</span></a></li>
+					         <li class='last'><a href='#'><span>Reportes de inventario</span></a></li>
+					      </ul>
+					   </li>
+					</ul>
+				</div>";
+		  		break;
+
+
+			break;
+		default:
+			session_write_close();
+			session_destroy();
+			header("Location: index.php");
+	}
+}
+
+?>
